@@ -11,4 +11,5 @@ song.save
 
 DB[:conn].execute("SELECT * FROM songs")
 
-puts "#{Song.column_names}"
+test = Song.new(name: "Yeaha", album: "Get it")
+puts test
