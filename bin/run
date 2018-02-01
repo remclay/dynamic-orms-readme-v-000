@@ -10,5 +10,3 @@ puts "song album: " + song.album
 song.save
 
 DB[:conn].execute("SELECT * FROM songs")
-
-puts Song.new.col_names_for_insert
