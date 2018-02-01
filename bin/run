@@ -11,4 +11,4 @@ song.save
 
 DB[:conn].execute("SELECT * FROM songs")
 
-puts col_names_for_insert
+puts Song.col_names_for_insert
